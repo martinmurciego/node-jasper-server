@@ -1,5 +1,11 @@
 {
     "reports":{
+        "reservas":{
+            "jrxml": "/jrxml/prueba_reporte.jrxml"
+        },
+        "test1": {
+            "jrxml": "/jrxml/test.jrxml"
+        },
         "test1": {
             "jrxml": "/jrxml/test.jrxml"
         },
@@ -20,9 +26,9 @@
     },
     "connections": {
         "mytestdatabase": {
-            "jdbc": "jdbc:postgresql://localhost:5432/mytestdatabase",
-            "user": "myusername",
-            "password": "mypassword"
+            "jdbc": "jdbc:postgresql://localhost:5433/centro_convenciones",
+            "user": "postgres",
+            "password": "admin"
         }
     }
 }
